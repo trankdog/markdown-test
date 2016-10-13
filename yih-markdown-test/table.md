@@ -4,7 +4,9 @@
 
 <table>
   <tr>
-    <th style="text-align:center;background-color:#F3F3F3">Task</th>
-      <th style="text-align:center;background-color:#F3F3F3">Versions</th>
+    <td><img style="float:left;padding-right:5px" alt="icon" src="../steps/deploy/_img/ssh.png"/>
+      [Copy Files Over SSH](../steps/deploy/copy-files-over-ssh.md)<br/>
+      Copy files from source folder to target folder on a remote machine over SSH</td>
+      <td>Team Services</td>
   </tr>
 </table>
