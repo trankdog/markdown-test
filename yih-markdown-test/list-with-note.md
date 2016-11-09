@@ -1,4 +1,4 @@
-# list-with-note
+# list-with-note with Update
     
 1. Copy the Hive JDBC drivers from your HDInsight cluster.
    
