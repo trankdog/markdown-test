@@ -27,7 +27,7 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": { "scope": "test-only" },
     "fileMetadata": {},
     "template": [],
     "dest": "yih/markdown"
