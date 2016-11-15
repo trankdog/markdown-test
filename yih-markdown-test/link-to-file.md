@@ -1,3 +1,8 @@
+
+---
+author: fenxu
+---
+
 # test markdown with link to file
 
 This is a bad link to [non-existent-file.md](non-existent-file.md).
