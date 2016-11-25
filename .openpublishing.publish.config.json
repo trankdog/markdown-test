@@ -20,7 +20,7 @@
     {
       "docset_name": "yih-markdown-test-docs",
       "build_source_folder": "yih-markdown-test",
-      "build_output_subfolder": "yih/markdown",
+      "build_output_subfolder": "yih/markdown-docs",
       "locale": "en-us",
       "version": 0,
       "open_to_public_contributors": true,
