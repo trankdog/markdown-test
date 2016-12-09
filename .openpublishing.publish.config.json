@@ -9,7 +9,7 @@
       "build_output_subfolder": "yih/markdown",
       "locale": "en-us",
       "version": 0,
-      "open_to_public_contributors": true,
+      "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -36,7 +36,6 @@
   "notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
-  "enable_incremental_build": true,
   "need_preview_pull_request": true,
   "dependent_repositories": [
     {
