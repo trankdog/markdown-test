@@ -1,3 +1,7 @@
+---
+author: some-unknown-user
+---
+
 # list-with-note
     
 1. Copy the Hive JDBC drivers from your HDInsight cluster.
