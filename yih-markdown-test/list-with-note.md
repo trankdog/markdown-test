@@ -1,5 +1,5 @@
 ---
-author: jsntcy
+author: some-unknown-user
 ---
 
 # list-with-note
