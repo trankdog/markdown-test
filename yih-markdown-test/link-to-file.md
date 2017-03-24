@@ -8,3 +8,5 @@ author: fenxu
 This is a bad link to [non-existent-file.md](non-existent-file.md).
 
 This is a correct link to [index.md](index.md).
+
+This is a link to an external [bookmark](table.md#deploy)
