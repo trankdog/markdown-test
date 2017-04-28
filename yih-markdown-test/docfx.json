@@ -30,6 +30,7 @@
     "externalReference": [],
     "globalMetadata": {},
     "fileMetadata": {},
-    "dest": "yih/markdown"
+    "dest": "yih/markdown",
+    "exportRawModel": true
   }
 }
