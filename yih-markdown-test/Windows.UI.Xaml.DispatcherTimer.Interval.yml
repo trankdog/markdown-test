@@ -1,3 +1,4 @@
+items:
 - uid: Windows.UI.Xaml.DispatcherTimer.Interval
   commentId: P:Windows.UI.Xaml.DispatcherTimer.Interval
   id: Interval
