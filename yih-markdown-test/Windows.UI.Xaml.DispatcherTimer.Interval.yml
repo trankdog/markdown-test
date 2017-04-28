@@ -1,0 +1,31 @@
+- uid: Windows.UI.Xaml.DispatcherTimer.Interval
+  commentId: P:Windows.UI.Xaml.DispatcherTimer.Interval
+  id: Interval
+  parent: Windows.UI.Xaml.DispatcherTimer
+  langs:
+  - cpp
+  - csharp
+  - vb
+  - javascript
+  name: Interval
+  nameWithType: Xaml.Interval
+  fullName: Windows.UI.Xaml.DispatcherTimer.Interval
+  type: property
+  source:
+    remote:
+      path: windows.ui.xaml\dispatchertimer_interval.md
+      branch: master
+      repo: https://cpubwin.visualstudio.com/DefaultCollection/windows-uwp/_git/winrt-api/
+    path: windows.ui.xaml\dispatchertimer_interval.md
+    startLine: 0
+  assemblies:
+  - Windows.UI.Xaml
+  namespace: Windows.UI.Xaml
+  syntax:
+    content.csharp: public TimeSpan Interval { get; set; }
+    content.vb: Public ReadWrite Property Interval As TimeSpan
+    content: public TimeSpan Interval { get; set; }
+    return:
+      type: Windows.Foundation.TimeSpan
+      type.csharp: System.TimeSpan
+      type.vb: System.TimeSpan
