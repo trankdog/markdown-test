@@ -15,7 +15,8 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "build_entry_point": "op"
+      "build_entry_point": "op",
+      "something_personal_docset": true
     },
     {
       "docset_name": "yih-markdown-test-docs",
