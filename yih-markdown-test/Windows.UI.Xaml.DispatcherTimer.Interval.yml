@@ -27,6 +27,15 @@ items:
     content.vb: Public ReadWrite Property Interval As TimeSpan
     content: public TimeSpan Interval { get; set; }
     return:
-      type: Windows.Foundation.TimeSpan
-      type.csharp: System.TimeSpan
-      type.vb: System.TimeSpan
+      type: 6a5b79c3
+references:
+- uid: 6a5b79c3
+  spec:
+  - name: Windows.Foundation.TimeSpan
+    fullname: Windows.Foundation.TimeSpan
+  spec.csharp:
+  - name: System.TimeSpan
+    fullName: System.TimeSpan
+  spec.vb:
+  - name: System.TimeSpan
+    fullName: System.TimeSpan
