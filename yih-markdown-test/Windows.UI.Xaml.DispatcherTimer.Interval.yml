@@ -4,12 +4,7 @@ items:
   id: DispatcherTimer
   parent: Windows.UI.Xaml
   children:
-  - Windows.UI.Xaml.DispatcherTimer.#ctor
   - Windows.UI.Xaml.DispatcherTimer.Interval
-  - Windows.UI.Xaml.DispatcherTimer.IsEnabled
-  - Windows.UI.Xaml.DispatcherTimer.Start
-  - Windows.UI.Xaml.DispatcherTimer.Stop
-  - Windows.UI.Xaml.DispatcherTimer.Tick
   langs:
   - cpp
   - csharp
