@@ -30,6 +30,8 @@
     "externalReference": [],
     "globalMetadata": {},
     "fileMetadata": {},
-    "dest": "yih/markdown"
-  }
+    "dest": "yih/markdown",
+    "debug": true
+  },
+  "debug": true
 }
