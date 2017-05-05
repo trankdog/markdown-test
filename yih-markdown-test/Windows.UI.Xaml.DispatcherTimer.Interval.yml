@@ -92,12 +92,16 @@ references:
   spec.cpp:
   - name: TimeSpan
     fullname: Windows.Foundation.TimeSpan
+    uid: Windows.Foundation.TimeSpan
   spec.csharp:
   - name: TimeSpan
     fullName: System.TimeSpan
+    uid: System.TimeSpan
   spec.vb:
   - name: TimeSpan
     fullName: System.TimeSpan
+    uid: System.TimeSpan
   spec.javascript:
   - name: TimeSpan
     fullname: Windows.Foundation.TimeSpan
+    uid: Windows.Foundation.TimeSpan
