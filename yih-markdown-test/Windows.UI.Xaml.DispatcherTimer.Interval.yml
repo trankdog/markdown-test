@@ -9,6 +9,7 @@ items:
   - cpp
   - csharp
   - vb
+  - javascript
   name: DispatcherTimer
   nameWithType: DispatcherTimer
   fullName: Windows.UI.Xaml.DispatcherTimer
