@@ -1,7 +1,3 @@
----
-open_to_public_contributors: false
----
-
 items:
 - uid: Windows.UI.Xaml.DispatcherTimer.Interval
   commentId: P:Windows.UI.Xaml.DispatcherTimer.Interval
@@ -34,3 +30,4 @@ items:
       type: Windows.Foundation.TimeSpan
       type.csharp: System.TimeSpan
       type.vb: System.TimeSpan
+open_to_public_contributors: false
