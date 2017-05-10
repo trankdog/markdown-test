@@ -37,7 +37,6 @@ items:
   name: TelemetryClient(TelemetryConfiguration configuration)
   nameWithType: TelemetryClient.TelemetryClient(TelemetryConfiguration configuration)
   fullName: com.microsoft.applicationinsights.TelemetryClient.TelemetryClient(TelemetryConfiguration configuration)
-  overload: com.microsoft.applicationinsights._telemetry_client.TelemetryClient*
   type: Constructor
   source:
     remote: *o0
