@@ -3,32 +3,7 @@ items:
   id: _telemetry_client
   parent: com.microsoft.applicationinsights
   children:
-  - com.microsoft.applicationinsights._telemetry_client.flush()
-  - com.microsoft.applicationinsights._telemetry_client.getContext()
-  - com.microsoft.applicationinsights._telemetry_client.isDisabled()
-  - com.microsoft.applicationinsights._telemetry_client.TelemetryClient()
   - com.microsoft.applicationinsights._telemetry_client.TelemetryClient(TelemetryConfiguration)
-  - com.microsoft.applicationinsights._telemetry_client.track(Telemetry)
-  - com.microsoft.applicationinsights._telemetry_client.trackDependency(RemoteDependencyTelemetry)
-  - com.microsoft.applicationinsights._telemetry_client.trackDependency(String,String,Duration,boolean)
-  - com.microsoft.applicationinsights._telemetry_client.trackEvent(EventTelemetry)
-  - com.microsoft.applicationinsights._telemetry_client.trackEvent(String)
-  - com.microsoft.applicationinsights._telemetry_client.trackEvent(String,Map<String, String>,Map<String, Double>)
-  - com.microsoft.applicationinsights._telemetry_client.trackException(Exception)
-  - com.microsoft.applicationinsights._telemetry_client.trackException(Exception,Map<String, String>,Map<String, Double>)
-  - com.microsoft.applicationinsights._telemetry_client.trackException(ExceptionTelemetry)
-  - com.microsoft.applicationinsights._telemetry_client.trackHttpRequest(String,Date,long,String,boolean)
-  - com.microsoft.applicationinsights._telemetry_client.trackMetric(MetricTelemetry)
-  - com.microsoft.applicationinsights._telemetry_client.trackMetric(String,double)
-  - com.microsoft.applicationinsights._telemetry_client.trackMetric(String,double,int,double,double,Map<String, String>)
-  - com.microsoft.applicationinsights._telemetry_client.trackPageView(PageViewTelemetry)
-  - com.microsoft.applicationinsights._telemetry_client.trackPageView(String)
-  - com.microsoft.applicationinsights._telemetry_client.trackRequest(RequestTelemetry)
-  - com.microsoft.applicationinsights._telemetry_client.trackSessionState(SessionState)
-  - com.microsoft.applicationinsights._telemetry_client.trackTrace(String)
-  - com.microsoft.applicationinsights._telemetry_client.trackTrace(String,SeverityLevel)
-  - com.microsoft.applicationinsights._telemetry_client.trackTrace(String,SeverityLevel,Map<String, String>)
-  - com.microsoft.applicationinsights._telemetry_client.trackTrace(TraceTelemetry)
   href: com.microsoft.applicationinsights._telemetry_client.yml
   langs:
   - csharp
@@ -52,94 +27,13 @@ items:
   - java.lang.Object
   inheritedMembers:
   - com.microsoft.applicationinsights._telemetry_client.getChannel()
-- uid: com.microsoft.applicationinsights._telemetry_client.flush()
-  id: flush()
-  parent: com.microsoft.applicationinsights._telemetry_client
-  href: com.microsoft.applicationinsights._telemetry_client.yml
-  langs:
-  - java
-  name: flush()
-  nameWithType: TelemetryClient.flush()
-  fullName: void com.microsoft.applicationinsights.TelemetryClient.flush()
-  overload: com.microsoft.applicationinsights._telemetry_client.flush*
-  type: Method
-  source:
-    remote: *o0
-    path: core/src/main/java/com/microsoft/applicationinsights/TelemetryClient.java
-    startLine: 463
-  package: com.microsoft.applicationinsights
-  summary: <p>Flushes possible pending Telemetries in the channel. Not required for a continuously-running server application. </p>
-  syntax:
-    content: public void flush()
-- uid: com.microsoft.applicationinsights._telemetry_client.getContext()
-  id: getContext()
-  parent: com.microsoft.applicationinsights._telemetry_client
-  href: com.microsoft.applicationinsights._telemetry_client.yml
-  langs:
-  - java
-  name: getContext()
-  nameWithType: TelemetryClient.getContext()
-  fullName: TelemetryContext com.microsoft.applicationinsights.TelemetryClient.getContext()
-  overload: com.microsoft.applicationinsights._telemetry_client.getContext*
-  type: Method
-  source:
-    remote: *o0
-    path: core/src/main/java/com/microsoft/applicationinsights/TelemetryClient.java
-    startLine: 88
-  package: com.microsoft.applicationinsights
-  summary: <p>Gets the current context that is used to augment telemetry you send. </p>
-  syntax:
-    content: public TelemetryContext getContext()
-    return:
-      type: com.microsoft.applicationinsights.telemetry._telemetry_context
-      description: <p>A telemetry context used for all records. Changes to it will impact all future telemetry in this application session. </p>
-- uid: com.microsoft.applicationinsights._telemetry_client.isDisabled()
-  id: isDisabled()
-  parent: com.microsoft.applicationinsights._telemetry_client
-  href: com.microsoft.applicationinsights._telemetry_client.yml
-  langs:
-  - java
-  name: isDisabled()
-  nameWithType: TelemetryClient.isDisabled()
-  fullName: boolean com.microsoft.applicationinsights.TelemetryClient.isDisabled()
-  overload: com.microsoft.applicationinsights._telemetry_client.isDisabled*
-  type: Method
-  source:
-    remote: *o0
-    path: core/src/main/java/com/microsoft/applicationinsights/TelemetryClient.java
-    startLine: 105
-  package: com.microsoft.applicationinsights
-  summary: <p>Checks whether tracking is enabled. </p>
-  syntax:
-    content: public boolean isDisabled()
-    return:
-      type: 4fc6e284
-      description: <p>'true' if tracking is disabled, 'false' otherwise. </p>
-- uid: com.microsoft.applicationinsights._telemetry_client.TelemetryClient()
-  id: TelemetryClient()
-  parent: com.microsoft.applicationinsights._telemetry_client
-  href: com.microsoft.applicationinsights._telemetry_client.yml
-  langs:
-  - java
-  name: TelemetryClient()
-  nameWithType: TelemetryClient.TelemetryClient()
-  fullName: com.microsoft.applicationinsights.TelemetryClient.TelemetryClient()
-  overload: com.microsoft.applicationinsights._telemetry_client.TelemetryClient*
-  type: Constructor
-  source:
-    remote: *o0
-    path: core/src/main/java/com/microsoft/applicationinsights/TelemetryClient.java
-    startLine: 79
-  package: com.microsoft.applicationinsights
-  summary: <p>Initializes a new instance of the <xref href="com.microsoft.applicationinsights._telemetry_client" data-throw-if-not-resolved="false"></xref> class, configured from the active configuration. </p>
-  syntax:
-    content: public TelemetryClient()
 - uid: com.microsoft.applicationinsights._telemetry_client.TelemetryClient(TelemetryConfiguration)
   id: TelemetryClient(TelemetryConfiguration)
   parent: com.microsoft.applicationinsights._telemetry_client
   href: com.microsoft.applicationinsights._telemetry_client.yml
   langs:
-  - java
+  - csharp
+  - vb
   name: TelemetryClient(TelemetryConfiguration configuration)
   nameWithType: TelemetryClient.TelemetryClient(TelemetryConfiguration configuration)
   fullName: com.microsoft.applicationinsights.TelemetryClient.TelemetryClient(TelemetryConfiguration configuration)
